@@ -32,6 +32,7 @@ public class PaisFactory {
                 case "aus" -> "Australia";
                 case "nzl" -> "NovaZelandia";
                 case "ind" -> "India";
+                case "van" -> "Vanuatu";
 
                 // África / Oriente Médio
                 case "afr" -> "AfricaDoSul";
