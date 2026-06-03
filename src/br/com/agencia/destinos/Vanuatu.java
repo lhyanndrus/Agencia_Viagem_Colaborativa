@@ -4,6 +4,7 @@ public class Vanuatu implements Pais {
 
     @Override
     public String obterNomeMoeda() {
+
         return "Vatu de Vanuatu (VUV)";
     }
 
