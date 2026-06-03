@@ -1,24 +1,24 @@
 package br.com.agencia.destinos;
 
-public class Vanuatu implements Pais {
+public class Italia implements Pais {
 
     @Override
     public String obterNomeMoeda() {
-        return "Vatu de Vanuatu (VUV)";
+        return "Euro (€)";
     }
 
     @Override
     public double converterParaMoedaLocal(double valorEmReais) {
         // Exemplo de cotação fictícia ou real pesquisar no site
         // Supondo que 1 Real vale aproximadamente 23 Vatu
-        return valorEmReais * 23.00;
+        return valorEmReais / 5.9;
     }
 
     @Override
     public void exibirDicaCultural() {
 
         // Pesquisar 2 curiosidades do pais
-        System.out.println("- é um arquipélago com 83 ilhas formado por vulcões ativos..");
-        System.out.println("- Eleito um dos países mais felizes do mundo, destaca-se por sua altíssima diversidade cultural (com mais de 100 línguas nativas).");
+        System.out.println("- Abriga o menor estado independente do mundo (o Vaticano, encravado em Roma)");
+        System.out.println("- Possui os únicos vulcões ativos da Europa continental (Etna, Stromboli e Vesúvio).");
     }
 }
